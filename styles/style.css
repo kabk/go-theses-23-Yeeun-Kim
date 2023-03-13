@@ -1,0 +1,599 @@
+::-webkit-scrollbar {
+    display: none; /* for Chrome, Safari, and Opera */
+  }
+html{
+    scroll-behavior:smooth;
+}
+body
+
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* min-height: 100vh;
+    height: auto; */
+    background-color: rgb(211, 211, 211);
+    
+}
+
+a{
+    text-decoration: none;
+}
+.w_cover
+{   top:0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(189, 189, 189);
+}
+
+
+.w_cover h1
+{
+   
+    font-size: 10vw;
+    font-family: 'Detroit3-R';
+    color: #48ff00;
+    margin: 0;
+    /* position: fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+    
+    
+}
+.w_cover div
+{
+    /* margin: 50vh; */
+    position: absolute;
+    right: 0;
+    background-color: rgb(255, 249, 245);
+    font-family: 'Graphik-Regular';
+    font-size: 12px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* text-align: center; */
+    line-height:16px;
+    padding:1px;
+    width: 25vw;
+}
+
+.w_table
+{   
+    
+  
+    position: relative;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    min-height: min-content;
+    width: 100%;
+    /* float: left; */
+    /* display: flex; */
+  
+   
+}
+
+.abstract
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(180, 180, 180);
+    text-shadow:#000000;
+    /* background-color: #48ff00; */
+    margin-top: 8vh;
+    margin-bottom: 1vh;
+    width: 100%;
+}
+.abstract span
+{
+  font-size: 4.5rem; 
+  font-family: 'Detroit3-R';
+   color: #48ff00;
+}
+.abstract p
+{
+    
+   
+
+    color: #000000;
+    font-size: 1.25rem;
+    line-height: 1.56rem;
+    font-family: 'Graphik-Regular';
+    hyphens: auto;
+    width: 30%;
+    text-align:center;
+
+ 
+    
+    
+        
+}
+.abstract p:hover
+{
+    /* text-decoration: underline  #9dff00; */
+
+}
+
+.navigation
+
+{
+    margin: 0;
+    position:relative;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    gap: 40px;
+    flex-direction:row;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    vertical-align: top;
+    width: 100%;
+
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    font-family: 'Graphik-Bold';
+    font-weight: bold;
+    list-style: none;
+    text-align: center;
+  
+      
+}
+.navigation li
+{
+    
+    vertical-align: bottom;
+}
+.navigation li a 
+{
+    font-family: 'Graphik-Light';
+    font-weight: lighter;
+    list-style: none;
+    
+    
+   
+}
+.navigation  a 
+{
+    text-decoration: none;
+    color: #000000;
+    
+ 
+}
+.navigation span
+{
+    font-family:'Graphik-Regular';
+    /* font-weight:lighter;
+    */
+}
+
+
+.navigation  a:hover
+{
+    background: #48ff00;
+    color:#fff;
+   
+    
+
+}
+
+.w_chair_text
+{
+
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.w_chair_text p
+{
+    font-size: 1rem;
+    line-height: 1.25rem;
+    font-family: 'Graphik-Light';
+    font-weight: lighter;
+    hyphens: auto;
+    width: min( 30ch, 100% - 4rem);
+}
+
+
+.w_introduction
+{
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10vh;
+    flex-direction: column;
+  }
+
+  .w_introduction div
+  {
+    color: #48ff00;
+    font-size: 4.5rem;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-family: 'Detroit3-R';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+
+.w_introduction p
+{
+    font-size: 1.25rem;
+    line-height: 1.56rem;
+    font-family: 'Graphik-Regular';
+    font-weight: lighter;
+    hyphens: auto;
+    width: min( 37ch, 100% - 4rem);
+}
+.introduction:before {
+    content: '';
+    width: 0;
+    height: 0;
+    border-bottom: 350px solid transparent;
+    border-right: 150px solid transparent;
+    float: left;
+    shape-outside: polygon(0 0, 44% 0, 43% 61%, 0 100%);
+  
+  } 
+ 
+
+/* 
+.scroller 
+{
+    height: 100vh;
+    overflow: auto;
+    scroll-snap-type:y mandatory;
+}
+.scroller section
+{
+    scroll-snap-align: start;
+}
+.w_introduction{
+    height: 90vh;
+    
+} */
+
+/* ____________________________________________Chapter1+2+3__________________________________________ */
+
+.w_chapter_title
+      {
+        position:relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 5vh;
+        /* margin-bottom: 5vh; */
+        
+
+      }
+      .w_chapter_title h1
+      {
+        font-size: 20px;
+        margin: 0;
+        color: rgb(121, 121, 121);
+        font-family:'Graphik-Light';
+        font-weight:lighter;
+
+      }
+      
+      .w_chapter_title h2
+      {
+        color: #48ff00;
+        font-size: 5rem;
+        margin-top: 3vh;
+        font-family: 'Detroit3-R';
+      }
+      .w_chapter_text
+      {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+        
+        
+        position:relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        
+
+
+      }
+    
+      .w_chapter_text_inbox
+      {
+        width: min(80ch);
+        /* width: min( 60ch, 100% - 4rem); */
+      }
+
+      .w_chapter_text_inbox h1
+      {
+        color: #48ff00;
+        font-size: 2rem;
+        font-family:'Detroit3-R';
+        text-align: center;
+        
+      }
+
+      .w_chapter_text_inbox h2
+      {
+        
+        font-size: 1.25rem;
+        font-family:'Graphik-Light';
+        font-weight: lighter;
+        margin-bottom: 0;
+        padding-bottom: 0;
+        
+        
+      }
+      .w_chapter_text_inbox p
+      {
+        color: #000000;
+        font-size: 1.25rem;
+        line-height: 1.56rem;
+        font-family: 'Graphik-Regular';
+        hyphens: auto;
+      }
+    
+      .chapter_1_paragraph_1:before {
+        content: " ";
+        width: 0;
+        height: 0;
+        border-bottom: 350px solid transparent;
+        border-right: 280px solid transparent;
+        float: left;
+        shape-outside: polygon(0 0, 0% 100%, 33% 0);
+      } 
+      .chapter_1_paragraph_2:before {
+        content: " ";
+        width: 0;
+        height: 0;
+        border-bottom: 350px solid transparent;
+        border-right: 280px solid transparent;
+        float: left;
+        shape-outside: polygon(0 0, 0% 100%, 33% 0);
+      } 
+      .chapter_1_paragraph_3:before {
+        content: " ";
+        width: 0;
+        height: 0;
+        border-bottom: 350px solid transparent;
+        border-right: 280px solid transparent;
+        float: left;
+        shape-outside: polygon(0 0, 0% 100%, 33% 0);
+      } 
+
+      sup
+      {
+        font-size: 0.7rem;
+        border: 0.2rem solid;
+        
+        border-color: #48ff00;
+        border-radius: 10%;
+        vertical-align: middle;
+        
+        
+      }
+
+      .footnote
+      {
+        display: none;
+        font-size: 0.9rem;
+        line-height: 1.25rem;
+        color: rgb(121, 121, 121);
+        padding-top: 1%;
+        padding-bottom: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        background-color:rgb(189, 189, 189);
+        
+        
+
+        
+        
+      }
+      
+      sup:hover + .footnote
+      {
+        cursor: pointer;
+        display: block;
+        /* justify-items: center;
+        align-items: center; */
+
+        
+        /* border-radius: 10%; */
+      }
+    
+      .w_chapter_title img
+      {
+        width: 500px;
+        margin: 0;
+        padding: 0;
+       
+      }
+
+      /* image 이미지 */
+      .w_chapter_text_inbox img{
+          
+          position: relative; 
+          display: flex;
+          justify-content:center;
+          align-items: center;
+          width: 400px;
+          height: auto;
+          z-index: -1;
+          padding-top: 50px;
+          padding-bottom: 30px;
+          margin: auto;
+          display: block;
+          z-index: 98;
+        }
+        figcaption
+        {
+          font-family: 'Graphik-Regular';
+          font-size: 1rem;
+          color: rgb(121, 121, 121);
+          line-height: 1rem;
+          position: relative; 
+          display: flex;
+          justify-content:center;
+          margin-bottom: 50px;
+          
+        }
+        /* navigation button */
+        .btnScrollToTop {
+            position: fixed;
+            right: 5vw;
+            top:5vh;
+            padding: 1%;
+            width: 20px;
+            height: 20px;
+            border: none;
+            z-index: 99;
+            background-color: #48ff00;
+            display: none;
+            font-family:'Detroit3-R';
+            color:white;
+            text-align: center;
+            align-items: center;
+            border-radius: 40%;
+            
+          }
+      
+        /* indicator 인디케이터 */
+        .line {
+          background: #48ff00;
+          height: 5px;
+          /* border-radius: 3px; */
+          width: 0%;
+          position: fixed;
+          top: 45vh;
+            z-index: 99;
+        }
+
+        button
+        {
+
+            background-color: #48ff00;
+            /* border-radius: 150px; */
+            border-width: 0;
+            color: #000000;
+            cursor: pointer;
+            
+            width: 100%;
+            height: 7vh;
+            font-weight: bold;
+            font-size: 15px;
+           
+            /* line-height: 20px; */
+            list-style: none;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            /* padding: 50px 50px; */
+          
+            text-align: center;
+           
+          }
+        
+
+/* ____________________________________________Chapter2____________________________________________ */
+
+/* vertical bar  */
+#scrollbar {
+    width: 5px;
+    height: 100%;
+    padding: 0;
+    margin: 0 0 0 auto;
+    left:50vw;
+    top: 0;
+    position: fixed;
+    background-color: transparent;
+  }
+  
+  #scrollbar #bar {
+    width: 100%;
+    height: 0%;
+    background-color: #48ff00;
+  }
+  
+/* ____________________________________________Chapter2____________________________________________ */
+
+  #progress
+  {
+      
+    height: 40vw;
+    width: 40vw;
+    /* background-color: #c0c0ff; */
+    border-radius: 50%;
+    position: fixed;
+    top:5vh;
+    left:5vh;
+
+    display: grid;
+    place-items: center;
+    
+   
+
+  }
+  #progress-value
+  {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color:  rgb(211, 211, 211);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    
+    
+   
+  }
+
+
+/* hr {
+    width: 90vw;
+    position:absolute;
+    left: 5vw;
+    right: 0;
+    margin-top: 2%;
+    color: #F00;
+  } */
+
+
+
+/* --------------------------arrow 화살표-------------------------- */
+
+  /* .arrow {
+
+
+    position: absolute;
+    right: 5%;
+    top:45%;
+    padding: 1rem; 
+            box-shadow: 1px -1px 0 1px rgb(0, 0, 0) inset;
+    -webkit-box-shadow: 2px -2px rgb(0, 0, 0) inset;
+    border: solid transparent;
+    border-width: 0 0 2rem 2rem;
+    transition: 0.2s;
+  }
+  
+  .arrow:hover {
+            box-shadow: 2px -2px 0 2px orchid inset;
+    -webkit-box-shadow: 4px -4px orchid inset;
+  }
+  
+  .arrow-up    { transform:rotate(135deg) }
+  .arrow-right { transform:rotate(225deg) }
+  .arrow-down  { transform:rotate(-45deg) }
+  .arrow-left  { transform:rotate(45deg) } */
+
