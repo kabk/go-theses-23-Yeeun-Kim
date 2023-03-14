@@ -513,11 +513,11 @@ a{
         /* navigation button */
         .btnScrollToTop {
             position: fixed;
-            right: 5vw;
+            right: 3vw;
             top:5vh;
             padding: 1%;
-            width: 1.5em;
-            height: 1.5em;
+            width: 1em;
+            height: 1em;
             border: none;
             z-index: 99;
             background-color: rgb(211, 211, 211);

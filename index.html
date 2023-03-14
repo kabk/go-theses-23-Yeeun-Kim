@@ -5,9 +5,9 @@
     <meta name="generator" content="pandoc" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
     <title>Shaping Back</title>
-    <link rel="stylesheet" type="text/css" href="styles/style.css" >
-    <link rel="stylesheet" type="text/css" href="styles/fonts.css" >
-    <link rel="stylesheet" type="text/js" href="script.JS" >
+    <link rel="stylesheet" type="text/css" href="../styles/style.css" >
+    <link rel="stylesheet" type="text/css" href="../styles/fonts.css" >
+    <!-- <link rel="stylesheet" type="text/js" href="script.JS" > -->
     <link rel="stylesheet" href="https://use.typekit.net/aie6qpr.css">
 
 </head>
@@ -439,10 +439,22 @@
 
       
 </body>
+<!-- <script>
+ 
+const scrollElement = document.querySelector('#scroll');
+const floatingWindows = document.getElementById( 'floating-windows' );
+window.addEventListener('scroll', function(){  const scrollStartY = floatingWindows.offsetTop;  
+  var height = document.body.scrollHeight - this.innerHeight - scrollStartY;  
+  var scrolledPixels = this.scrollY - scrollStartY;  
+  var width = ((scrolledPixels / height) * 100).toFixed(2);   scrollElement.style.width = width + '%';});
+
+
+</script> -->
 <script type="text/javascript">
- const chapter = document.getElementById('chapter1');
+
   window.addEventListener('scroll', moveScrollIndicator);
   const scrollIndicatorElt = document.getElementById('scrollIndicator');
+  
  
  
   const maxScrollableHeight = window.document.body.scrollHeight - window.innerHeight;
