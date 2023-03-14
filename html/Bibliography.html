@@ -12,213 +12,179 @@
    
 </head>
 <style>
+
   @media screen and (min-width:0px) and (max-width:1000px)
   { 
-    #progress
-{
-    width: 90vw;
-    height: 90vw;
-    margin: 0 auto;
-   left: 0;
-   top:15vh;
-   right: 0;
-   
-}
-
-
     .w_cover div
-    {
-        display: none;
-    }
-    .w_cover h1
-    {
-         writing-mode: vertical-rl;
-         text-orientation: mixed;
-         font-size: 20vw;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         position: relative;
-         top: 5vh;
-         left: 40vw;
-         margin: 0;
+              {
+                  display: none;
+              }
+              .w_cover h1
+              {
+                  writing-mode: vertical-rl;
+                  text-orientation: mixed;
+                  font-size: 20vw;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  position: relative;
+                  top: 5vh;
+                  left: 40vw;
+                  margin: 0;
 
-    }
-   
-    .slanted
-    {
-        /* width: min( 50ch, 100% - 4rem); */
-        width: 80vw;
-        font-size: 0.80rem;
-        line-height: 1.0rem;
-        font-weight: normal;
-        padding-top: 0;
-        padding-left: 0;
-        padding-left: 0;
-        margin:0;
-        /* text-align: justify; */
-    }
-
-    .slanted:before
-    {
-        content: '';
-        width: 0;
-        height: 0;
-        border-bottom: 250px solid transparent;
-        border-right: 100px solid transparent;
-        float: left;
-        shape-outside: polygon(0 0, 44% 0, 43% 61%, 0 100%);
-    }
-    
-.w_table
-{
-    padding-top: 3vh;
-    padding-bottom: 0;
-    /* background-color: aqua; */
-
-}
-.abstract p span {
-    font-size: 14vw;
-    
-    
-}
-.abstract p
-{
-    
-    font-family: 'Detroit3-R';
-    
-    font-size: 1rem;
-    line-height: 1.25rem;
-    width: 90vw;
-    text-align: center;
+              }
             
-}
-  .navigation
-  {
-      font-size: 1rem;
-      line-height: 1.3rem;
-      gap:0;
-      flex-direction: column;
-      padding-top: 3vh;
-      
+              
+          .w_table
+          {
+              padding-top: 3vh;
+              padding-bottom: 0;
+              /* background-color: aqua; */
+
+          }
+          .abstract p span {
+              font-size: 14vw;
+              
+              
+          }
+          .abstract p
+          {
+              
+              font-family: 'Detroit3-R';
+              
+              font-size: 1rem;
+              line-height: 1.25rem;
+              width: 90vw;
+              text-align: center;
+                      
+          }
+            .navigation
+            {
+                font-size: 1rem;
+                line-height: 1.3rem;
+                gap:10px;
+                flex-direction: column;
+                padding-top: 3vh;
+                
+            }
+
+
+       
+          .w_introduction p
+          {
+
+              font-size: 0.9rem;
+              line-height: 1.2rem;
+              font-family: 'Graphik-Regular';
+              /* font-weight: lighter; */
+              hyphens: auto;
+              width: 90%
+          }
+
+          .w_introduction div
+            {
+              font-size: 15vw;
+              margin-top: 1vh;
+              margin-bottom: 4vh;
+            }
+          body
+          {
+            margin:0 auto; 
+          }
+
+            .w_chapter_title
+            {
+              
+              width: 100vw;
+              margin-top: 7vh;
+            }
+            .w_chapter_title h1
+            {
+              font-size: 4vw;
+            }
+            .w_chapter_title h2
+            {
+              font-size: 11vw;
+            }
+          
+            .w_chapter_title img
+            {
+              
+              width: 90vw;
+            }
+            .w_chapter_text
+            {
+              
+              width: 100vw;
+            }
+
+            .w_chapter_text_inbox
+            {
+            width:90vw;
+            margin: 0;
+            }
+          
+
+            .w_chapter_text p
+            {
+              font-size: 1rem;
+              line-height: 1.25rem;
+            }
+
+            
+          .footnote
+          {
+            font-size: 0.7rem;
+            line-height: 1rem;
+            width: 90%;
+            
+            margin-left: 1vw;
+            margin-right: 1vw;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            
+            padding-left: 1vw;
+            padding-right: 1vw;
+
+          }
+
+          figcaption
+          {
+            font-size: 0.7rem;
+            margin-bottom: 5vh;
+          }
+
+          .w_chapter_text_inbox img
+          {
+            width: 100%;
+            margin: 0;
+            padding-top: 3vh;
+          padding-bottom: 3vh;
+          }
+
+          #progress
+          {
+              width: 90vw;
+              height: 90vw;
+          }
+
+          .btnScrollToTop{
+            /* box-shadow: inset 1em 1em #48ff00; */
+            border: solid 1px #48ff00;;
+            width: 1.5em;
+            height: 1.5em;
+                      
+                    }
+            .bibliography li{
+            font-size: 0.7em;
+            }
+
   }
-
-
-  .footnote
-{
-  font-size: 0.7rem;
-  line-height: 1rem;
-  width: 90%;
-  
-  margin-left: 1vw;
-  margin-right: 1vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
-  
-  padding-left: 1vw;
-  padding-right: 1vw;
-
-}
-.w_introduction p
-{
-
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-    font-family: 'Graphik-Regular';
-    /* font-weight: lighter; */
-    hyphens: auto;
-    width: 90%
-}
-
-.w_introduction div
-  {
-    font-size: 15vw;
-    margin-top: 1vh;
-    margin-bottom: 4vh;
-  }
-body
- {
-  margin:0 auto; 
- }
-
-  .w_chapter_title
-  {
-    
-    width: 100vw;
-    margin-top: 7vh;
-  }
-  .w_chapter_title h1
-  {
-    font-size: 4vw;
-  }
-  .w_chapter_title h2
-  {
-    font-size: 11vw;
-  }
- 
-  .w_chapter_title img
-  {
-    
-    width: 90vw;
-  }
-  .w_chapter_text
-  {
-    
-    width: 100vw;
-  }
-
-  .w_chapter_text_inbox
-  {
-   width:90vw;
-   margin: 0;
-  }
- 
-
-  .w_chapter_text p
-  {
-    font-size: 1rem;
-    line-height: 1.25rem;
-  }
-
-  
-.footnote
-{
-  font-size: 0.7rem;
-  line-height: 1rem;
-  width: 90%;
-  
-  margin-left: 1vw;
-  margin-right: 1vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
-  
-  padding-left: 1vw;
-  padding-right: 1vw;
-
-}
-
-figcaption
-{
-  font-size: 0.7rem;
-  margin-bottom: 5vh;
-}
-}
-.w_chapter_text_inbox img
-{
-  width: 100%;
-  margin: 0;
-  padding-top: 3vh;
-padding-bottom: 3vh;
-}
-
-
 </style>
 <body>
-    <div id="progress">
-      <span id="progress-value"></span>
-    </div>
-    <div class="btnScrollToTop" type="button" id="nav"><a href="../index.html">&nbsp;↑&nbsp;</a></div>     
+   
     
+   
     <div class="w_chapter_title">
       
      
@@ -226,26 +192,25 @@ padding-bottom: 3vh;
       <h2>Conclusion</h2>
    
   
-    <img src="../image/chair_line-02.png" style="padding: 0;">
+    <img src="../image/chair_image-08.png" style="padding: 0;">
     
   </div>
-
   
   <div class="w_chapter_text">
         
-    <div class="w_chapter_text_inbox">
+         <div class="w_chapter_text_inbox">
    
     
-     <!-- <h1>Chairs representing power</h1>  -->
+                    <!-- <h1>Chairs representing power</h1>  -->
+                
+                        <p class="chapter_4_paragraph_1"> 
+                        
+                            A chair is the most human-like item of furniture. As much as it resembles humans, it has been profoundly embedded in history from the time even we barely know. Throughout this paper, we could approach to chair and sitting in three different contexts. First, on a historic level, sitting has been educated by outdated school system and planted through democratization of chair. the act of sitting has been deeply ingrained in our society as a means of discipline and order. On a cultural level, alternative ways of seating have been suggested, in recent times, as traditional chairs have been linked to various health problems. This has resulted in a shift towards non-chair seating options. At last, on a political level, power dynamics come into play when chairs are arranged in certain ways and sitting itself can be used as a form of protest.
+                        </p>
   
-         <p class="chapter_3_paragraph_1"> 
-          
-            A chair is the most human-like item of furniture. As much as it resembles humans, it has been profoundly embedded in history from the time even we barely know. Throughout this paper, we could approach to chair and sitting in three different contexts. First, on a historic level, sitting has been educated by outdated school system and planted through democratization of chair. the act of sitting has been deeply ingrained in our society as a means of discipline and order. On a cultural level, alternative ways of seating have been suggested, in recent times, as traditional chairs have been linked to various health problems. This has resulted in a shift towards non-chair seating options. At last, on a political level, power dynamics come into play when chairs are arranged in certain ways and sitting itself can be used as a form of protest.
-        </p>
-  
-       
+         </div>    
         
-      </div>
+</div>
            
       <div class="w_chapter_title">
       
@@ -275,6 +240,14 @@ padding-bottom: 3vh;
           <li> Tenner, Edward. “How the Chair Conquered the World.” The Wilson Quarterly (1976-), vol. 21, no. 2, 1997, pp. 64–70.</li> 
           <li> Hewes, Gordon W. “World Distribution of Certain Postural Habits.” American Anthropologist, vol. 57, no. 2, 1955, pp. 231–44.</li> 
           <li> Parliament. XML, 2017.
+        <li> Raddato, Carole. “Seated Woman of Çatalhöyük.” World History Encyclopedia, Https://Www.worldhistory.org#Organization, 25 Feb. 2023.</li> 
+            <li> Friedman, Uri. “The 5,000-Year History of the Chair.” The Atlantic, Atlantic Media Company, 30 Aug. 2016.</li> 
+        <li>    Zuckerman, Ethan. Those White Plastic Chairs - the Monobloc and the Context-Free Objectethanzuckerman. 15 Jan. 2021.</li> 
+        <li> Rietveld Landscape, RAAAF. “The End of Sitting - Projects.” RAAAF, 27 Feb. 2023.</li> 
+        <li> “Vitra Design Museum.” Vitra, http://collectiononline.design-museum.de/#/en/object/29656?_k=6h6zns. “Chairman (n.).” Etymology.</li> 
+        <li> “Seats of Power.” Vitra, https://www.vitra.com/en-us/magazine/details/seats-of-power.</li> 
+         <li>  “Effective Classroom Seating Arrangements.” Tips for the Most Effective Classroom Seating Arrangement, 24 Feb. 2023.</li> 
+    <li>  Agencies. “Chair Protest in Berlin to Underline Calls to Evacuate Migrants from Overcrowded Greek Camp.” Daily Sabah, Daily Sabah, 7 Sept. 2020.</li> 
         
         
           </div> 
@@ -294,6 +267,7 @@ padding-bottom: 3vh;
    
   
    
+   <a href="../index.html#navigation"><div class="btnScrollToTop" type="button" id="nav">&nbsp;&nbsp;</div></a>
   
        
   
@@ -302,10 +276,11 @@ padding-bottom: 3vh;
    </body>
 
  
-    <!-- <script>
-      const btnScrollToTop = document.querySelector(".btnScrollToTop");
-      window.addEventListener('scroll', e => {
-        btnScrollToTop.style.display = window.scrollY > 1800 ? 'block' : 'none';
+</script>
+<script>
+  const btnScrollToTop = document.querySelector(".btnScrollToTop");
+    window.addEventListener('scroll', e => {
+      btnScrollToTop.style.display = window.scrollY > 600 ? 'block' : 'none';
 });
-  </script> -->
+</script>
 </html>

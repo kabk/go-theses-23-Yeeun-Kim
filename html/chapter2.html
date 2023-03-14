@@ -12,194 +12,209 @@
    
 </head>
 <style>
+     /* .btnScrollToTop {
+    display: block;
+  } */
   @media screen and (min-width:0px) and (max-width:1000px)
   { 
     .w_cover div
-    {
-        display: none;
-    }
-    .w_cover h1
-    {
-         writing-mode: vertical-rl;
-         text-orientation: mixed;
-         font-size: 20vw;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         position: relative;
-         top: 5vh;
-         left: 40vw;
-         margin: 0;
+              {
+                  display: none;
+              }
+              .w_cover h1
+              {
+                  writing-mode: vertical-rl;
+                  text-orientation: mixed;
+                  font-size: 20vw;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  position: relative;
+                  top: 5vh;
+                  left: 40vw;
+                  margin: 0;
 
-    }
-   
-    .slanted
-    {
-        /* width: min( 50ch, 100% - 4rem); */
-        width: 80vw;
-        font-size: 0.80rem;
-        line-height: 1.0rem;
-        font-weight: normal;
-        padding-top: 0;
-        padding-left: 0;
-        padding-left: 0;
-        margin:0;
-        /* text-align: justify; */
-    }
-
-    .slanted:before
-    {
-        content: '';
-        width: 0;
-        height: 0;
-        border-bottom: 250px solid transparent;
-        border-right: 100px solid transparent;
-        float: left;
-        shape-outside: polygon(0 0, 44% 0, 43% 61%, 0 100%);
-    }
-    
-.w_table
-{
-    padding-top: 3vh;
-    padding-bottom: 0;
-    /* background-color: aqua; */
-
-}
-.abstract p span {
-    font-size: 14vw;
-    
-    
-}
-.abstract p
-{
-    
-    font-family: 'Detroit3-R';
-    
-    font-size: 1rem;
-    line-height: 1.25rem;
-    width: 90vw;
-    text-align: center;
+              }
             
+              .slanted
+              {
+                  /* width: min( 50ch, 100% - 4rem); */
+                  width: 80vw;
+                  font-size: 0.80rem;
+                  line-height: 1.0rem;
+                  font-weight: normal;
+                  padding-top: 0;
+                  padding-left: 0;
+                  padding-left: 0;
+                  margin:0;
+                  /* text-align: justify; */
+              }
+
+              .slanted:before
+              {
+                  content: '';
+                  width: 0;
+                  height: 0;
+                  border-bottom: 250px solid transparent;
+                  border-right: 100px solid transparent;
+                  float: left;
+                  shape-outside: polygon(0 0, 44% 0, 43% 61%, 0 100%);
+              }
+              
+          .w_table
+          {
+              padding-top: 3vh;
+              padding-bottom: 0;
+              /* background-color: aqua; */
+
+          }
+          .abstract p span {
+              font-size: 14vw;
+              
+              
+          }
+          .abstract p
+          {
+              
+              font-family: 'Detroit3-R';
+              
+              font-size: 1rem;
+              line-height: 1.25rem;
+              width: 90vw;
+              text-align: center;
+                      
+          }
+            .navigation
+            {
+                font-size: 1rem;
+                line-height: 1.3rem;
+                gap:10px;
+                flex-direction: column;
+                padding-top: 3vh;
+                
+            }
+
+
+            .footnote
+          {
+            font-size: 0.7rem;
+            line-height: 1rem;
+            width: 90%;
+            
+            margin-left: 1vw;
+            margin-right: 1vw;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            
+            padding-left: 1vw;
+            padding-right: 1vw;
+
+          }
+          .w_introduction p
+          {
+
+              font-size: 0.9rem;
+              line-height: 1.2rem;
+              font-family: 'Graphik-Regular';
+              /* font-weight: lighter; */
+              hyphens: auto;
+              width: 90%
+          }
+
+          .w_introduction div
+            {
+              font-size: 15vw;
+              margin-top: 1vh;
+              margin-bottom: 4vh;
+            }
+          body
+          {
+            margin:0 auto; 
+          }
+
+            .w_chapter_title
+            {
+              
+              width: 100vw;
+              margin-top: 7vh;
+            }
+            .w_chapter_title h1
+            {
+              font-size: 4vw;
+            }
+            .w_chapter_title h2
+            {
+              font-size: 11vw;
+            }
+          
+            .w_chapter_title img
+            {
+              
+              width: 90vw;
+            }
+            .w_chapter_text
+            {
+              
+              width: 100vw;
+            }
+
+            .w_chapter_text_inbox
+            {
+            width:90vw;
+            margin: 0;
+            }
+          
+
+            .w_chapter_text p
+            {
+              font-size: 1rem;
+              line-height: 1.25rem;
+            }
+
+            
+          .footnote
+          {
+            font-size: 0.7rem;
+            line-height: 1rem;
+            width: 90%;
+            
+            margin-left: 1vw;
+            margin-right: 1vw;
+            margin-top: 2vw;
+            margin-bottom: 2vw;
+            
+            padding-left: 1vw;
+            padding-right: 1vw;
+
+          }
+
+          figcaption
+          {
+            font-size: 0.7rem;
+            margin-bottom: 5vh;
+          }
+
+          .w_chapter_text_inbox img
+          {
+            width: 100%;
+            margin: 0;
+            padding-top: 3vh;
+          padding-bottom: 3vh;
+          }
+
+          #progress
+          {
+              width: 90vw;
+              height: 90vw;
+          }
+
+          .btnScrollToTop{
+            box-shadow: inset 3em 3em #48ff00;
+            width: 1.5em;
+            height: 1.5em;
+                      
+                    }
 }
-  .navigation
-  {
-      font-size: 1rem;
-      line-height: 1.3rem;
-      gap:0;
-      flex-direction: column;
-      padding-top: 3vh;
-      
-  }
-
-
-  .footnote
-{
-  font-size: 0.7rem;
-  line-height: 1rem;
-  width: 90%;
-  
-  margin-left: 1vw;
-  margin-right: 1vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
-  
-  padding-left: 1vw;
-  padding-right: 1vw;
-
-}
-.w_introduction p
-{
-
-    font-size: 0.9rem;
-    line-height: 1.2rem;
-    font-family: 'Graphik-Regular';
-    /* font-weight: lighter; */
-    hyphens: auto;
-    width: 90%
-}
-
-.w_introduction div
-  {
-    font-size: 15vw;
-    margin-top: 1vh;
-    margin-bottom: 4vh;
-  }
-body
- {
-  margin:0 auto; 
- }
-
-  .w_chapter_title
-  {
-    
-    width: 100vw;
-    margin-top: 7vh;
-  }
-  .w_chapter_title h1
-  {
-    font-size: 4vw;
-  }
-  .w_chapter_title h2
-  {
-    font-size: 11vw;
-  }
- 
-  .w_chapter_title img
-  {
-    
-    width: 90vw;
-  }
-  .w_chapter_text
-  {
-    
-    width: 100vw;
-  }
-
-  .w_chapter_text_inbox
-  {
-   width:90vw;
-   margin: 0;
-  }
- 
-
-  .w_chapter_text p
-  {
-    font-size: 1rem;
-    line-height: 1.25rem;
-  }
-
-  
-.footnote
-{
-  font-size: 0.7rem;
-  line-height: 1rem;
-  width: 90%;
-  
-  margin-left: 1vw;
-  margin-right: 1vw;
-  margin-top: 2vw;
-  margin-bottom: 2vw;
-  
-  padding-left: 1vw;
-  padding-right: 1vw;
-
-}
-
-figcaption
-{
-  font-size: 0.7rem;
-  margin-bottom: 5vh;
-}
-}
-.w_chapter_text_inbox img
-{
-  width: 100%;
-  margin: 0;
-  padding-top: 3vh;
-padding-bottom: 3vh;
-}
-
-  
 </style>
 <body>
    <div id="scrollbar">
@@ -214,16 +229,16 @@ padding-bottom: 3vh;
     <h2>On a Cultural level</h2>
  
 
-  <img src="../image/chair_line-02.png" style="padding: 0;">
+  <img src="../image/chair_image-06.png" style="padding: 0;">
   
 </div>
-<div class="btnScrollToTop" type="button" id="nav"><a href="index.html">&nbsp;↑&nbsp;</a></div>
+
 
 <div class="w_chapter_text">
       
   <div class="w_chapter_text_inbox">
  
-     
+    <a href="../index.html#navigation"><div class="btnScrollToTop" type="button" id="nav">&nbsp;&nbsp;</div></a>
       
     
    <h1>New way of sitting</h1> 
@@ -254,9 +269,9 @@ padding-bottom: 3vh;
 
       <img src="../image/victoria.png"><figcaption>  Figure 6 : Victoria Beckham on treadmill desk</figcaption>
          
-    <h1>From floor to chair and back to floor</h1>
+    <h1  >From floor to chair and back to floor</h1>
 
-      <p>
+      <p class="chapter_2_paragraph_1">
         The presence of chairs has become ubiquitous globally, sometimes deliberately promoted by Western rule or influence, but more often spontaneously adopted with modernization. This transformation has been one of the most significant and seemingly irreversible in the history of material culture.
         <sup>10</sup><span class="footnote">Tenner, Edward. “How the Chair Conquered the World.” The Wilson Quarterly (1976-), vol. 21, no. 2, 1997, pp. 64–70. JSTOR, http://www.jstor.org/stable/40259449. Accessed 26 Feb. 2023.</span>
         For countries where didn’t have chair-seating culture, it was a radical change especially in household.
@@ -352,12 +367,12 @@ padding-bottom: 3vh;
   }
 
   </script>
-  <!-- <script>
+  <script>
     const btnScrollToTop = document.querySelector(".btnScrollToTop");
-    window.addEventListener('scroll', e => {
-      btnScrollToTop.style.display = window.scrollY > 1800 ? 'block' : 'none';
+      window.addEventListener('scroll', e => {
+        btnScrollToTop.style.display = window.scrollY > 600 ? 'block' : 'none';
 });
-</script> -->
+</script>
 
 
 </html>
