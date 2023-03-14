@@ -14,7 +14,18 @@
 <style>
   @media screen and (min-width:0px) and (max-width:1000px)
   { 
-  
+    #progress
+{
+    width: 90vw;
+    height: 90vw;
+    margin: 0 auto;
+   left: 0;
+   top:15vh;
+   right: 0;
+   
+}
+
+
     .w_cover div
     {
         display: none;
@@ -199,22 +210,14 @@ figcaption
   padding-top: 3vh;
 padding-bottom: 3vh;
 }
-#progress
-{
-    width: 90vw;
-    height: 90vw;
-    margin: 0 auto;
-   left: 0;
-   top:15vh;
-   right: 0;
-   
-}
+
+
 </style>
 <body>
     <div id="progress">
       <span id="progress-value"></span>
     </div>
-
+    <div class="btnScrollToTop" type="button" id="nav"><a href="../index.html">&nbsp;↑&nbsp;</a></div>     
     
     <div class="w_chapter_title">
       
@@ -226,7 +229,7 @@ padding-bottom: 3vh;
     <img src="../image/chair_line-02.png" style="padding: 0;">
     
   </div>
-     
+
   
   <div class="w_chapter_text">
         
@@ -292,12 +295,12 @@ padding-bottom: 3vh;
           <sup>21</sup><span class="footnote"></span>
           The cemetery method mentioned in chapter 1, also called a rows-and-columns arrangement, utilizes the entire space of the classroom, and makes it easy for the teacher to supervise and monitor all the students. However, when all students face the instructor or a central screen or chalkboard, students in the front cannot see other students, while those in the back can see the heads of their peers; thus, the rows-and-columns arrangement is not conducive to peer interaction and communication within classrooms. A flexible chair arrangement provides for simple reconfiguration of the seating layout to accommodate various teaching styles, activities, and student requirements.
         </p>
-    
+        <a href="../html/Bibliography.html"><button> Conclusion </button></a>
       </div>
            
-  
+      
            
-      <a href="../html/Bibliography.html"><button> Conclusion </button></a>
+      
   
   
    </div>
@@ -334,4 +337,11 @@ padding-bottom: 3vh;
     window.onload = scrollPercentage; 
       
   </script>
+
+    <!-- <script>
+      const btnScrollToTop = document.querySelector(".btnScrollToTop");
+      window.addEventListener('scroll', e => {
+        btnScrollToTop.style.display = window.scrollY > 1800 ? 'block' : 'none';
+});
+  </script> -->
 </html>
