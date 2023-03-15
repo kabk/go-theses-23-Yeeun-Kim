@@ -39,8 +39,8 @@
 
 @font-face {
     font-family: 'Graphik-Regular';
-    src: url('../fonts/Graphik-Regular.otf') format('otf'),
-        url('Graphik-Regular.otf') format('otf');
+    src: url('../fonts/Graphik-Regular.otf') format('otf');
+        
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -77,7 +77,7 @@
 
   @font-face {
     font-family: 'Detroit3-UL';
-    src: url('../fonts/Detroit3 UltraLight.ttf') format('ttf');
+    src: url('../fonts/Detroit3-UltraLight.ttf') format('ttf');
     font-weight: 200;
     font-style: normal;
     font-display: swap;
@@ -86,7 +86,7 @@
 
 @font-face {
   font-family: 'Detroit3-R';
-  src: url('../fonts/Detroit3 Regular.ttf') format('ttf');
+  src: url('../fonts/Detroit3-Regular.ttf') format('ttf');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
